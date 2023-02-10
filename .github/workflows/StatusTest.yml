@@ -1,0 +1,13 @@
+name: Status changed
+on:
+  status
+  
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          DESCRIPTION: ${{ github.event.description }}
+          STATUS: ${{ github.event.state }}
+        run: |
+          echo The status is $STATUS: $DESCRIPTION
