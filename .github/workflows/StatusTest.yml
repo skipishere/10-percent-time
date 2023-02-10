@@ -1,6 +1,8 @@
 name: Status changed
 on:
-  status
+  issues:
+    types:
+      - status
   
 jobs:
   action:
