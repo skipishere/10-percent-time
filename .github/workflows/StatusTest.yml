@@ -2,7 +2,8 @@ name: Status changed
 on:
   issues:
     types:
-      - status
+      - edited
+      - transferred
   
 jobs:
   action:
