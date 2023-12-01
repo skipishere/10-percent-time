@@ -42,8 +42,8 @@ body:
   
   - type: textarea
     attributes:
-      label: Debug logs
-      description: Enable the debug logs ([https://my.home-assistant.io/redirect/integration/?domain=tesla_custom](In Home Assistant) & click `Enable debug logging`)
+      label: Debug logs [dadsad](http://example.com)
+      description: Enable the debug logs ([In Home Assistant](https://my.home-assistant.io/redirect/integration/?domain=tesla_custom) & click `Enable debug logging`)
       render: true
       placeholder: |
         Your logs here
