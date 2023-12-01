@@ -1,6 +1,6 @@
 name: Issue
 description: Create a report to help us improve
-title: "Issue: 
+title: "Issue: "
 labels: ["triage"]
 body:
 - type: checkboxes
