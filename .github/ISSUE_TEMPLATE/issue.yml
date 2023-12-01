@@ -44,6 +44,7 @@ body:
     attributes:
       label: Debug logs
       description: Enable the debug logs https://my.home-assistant.io/redirect/integration/?domain=tesla_custom & click `Enable debug logging`
+      render: true
       placeholder: |
         Your logs here
     validations:
