@@ -12,11 +12,12 @@ body:
         required: true
   - type: markdown
     attributes:
-    value: |
-      Issues not containing the minimum requirements will be closed:
-      - Issues without a description (using the header is not good enough) will be closed.
-      - Issues without debug logging will be closed.
-      - Issues without configuration will be closed
+      value: |
+        Issues not containing the minimum requirements will be closed:
+        - Issues without a description (using the header is not good enough) will be closed.
+        - Issues without debug logging will be closed.
+        - Issues without configuration will be closed
+      
   - type: input
     id: version
     attributes:
